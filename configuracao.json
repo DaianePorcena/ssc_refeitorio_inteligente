@@ -1,0 +1,56 @@
+{
+    "versao": "0.1",
+    "alunos_cadastrados": [
+        {
+            "matricula": "01051980",
+            "nome": "Rony Weasley",
+            "idade": 25,
+            "curso": "BSI",
+            "turma": "Grifnória",
+            "endereco": "Hogwarts",
+            "bolsa_paae": "Sim",
+            "fotos": [
+                "faces/rony1.jpg",
+                "faces/rony2.jpg",
+                "faces/rony3.jpg"
+            ]
+        },
+        {
+            "matricula": "19091979",
+            "nome": "Hermione Granger",
+            "idade": 24,
+            "curso": "BSI",
+            "turma": "Grifnória",
+            "endereco": "Hogwarts",
+            "bolsa_paae": "Sim",
+            "fotos": [
+                "faces/hermione1.jpg",
+                "faces/hermione2.jpg",
+                "faces/hermione3.jpg"
+            ]
+        }
+    ],
+    "pessoas_nao_cadastradas": [
+        {
+            "nome": "Draco Malfoy",
+            "idade": "20",
+            "turma": "Sonserina",
+            "fotos": [
+                "faces/Draco1.jpg",
+                "faces/Draco2.jpg",
+                "faces/Draco3.jpg"
+            ]
+        },
+        {
+            
+            "nome": "Severus Snape",
+            "idade": 45
+            
+        }
+    ],
+    "prato_dia": [
+        {
+            "nome": "Feijoada"
+        }
+    ]
+}
