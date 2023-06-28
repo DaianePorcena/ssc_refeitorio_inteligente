@@ -52,7 +52,7 @@ def simular_entradas():
 
     pessoas = {
         "foto": foto,
-        "pacientes": None
+        "alunos_cadastrados": None
     }
 
     return pessoas
@@ -115,10 +115,6 @@ def imprimir_dados_do_aluno(aluno):
         'yellow'), f"matricula: {aluno['matricula']}", colored.attr('reset'))
     print(colored.fg('black'), colored.bg(
         'yellow'), f"turma: {aluno['turma']}", colored.attr('reset'))
-
-
-# captura uma foto de pessoas e reconhece se tem pacientes
-# entre eles
 
 
 def reconhecer_pessoas(ambiente_de_simulacao):
